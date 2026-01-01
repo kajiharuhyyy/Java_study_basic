@@ -4,13 +4,13 @@ public class Main_3_3 {
             System.out.println("***** snippet_1 *****");
             int x = 10;
             int y = x; // 変数yに10が代入される
-            System.out.println("=> end");
+            System.out.println(y);
         }
         {
             System.out.println("***** snippet_2 *****");
             String str1 = "foo";
             String str2 = str1; // 変数str2の文字列は"foo"
-            System.out.println("=> end");
+            System.out.println(str2);
         }
         {
             System.out.println("***** snippet_3 *****");
